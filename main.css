@@ -1,0 +1,50 @@
+/* Center the button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-bottom: 20px;
+  }
+  
+  /* General button styling */
+  #all {
+    padding: 10px 20px; /* Add padding to make buttons larger */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    min-width: 100px; /* Consistent button width */
+    text-align: center;
+  }
+  
+  /* Pet type-specific button colors */
+  .btn-cat {
+    background-color: #cce5ff;
+    color: #0056b3;
+  } 
+  
+  .btn-dog {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .btn-dino {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  /* Additional hover and responsive adjustments */
+  #all:hover, #cats:hover, #dogs:hover, #dinos:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+  }
+  
+  /* foother */
+  .label {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: inherit;
+  }
